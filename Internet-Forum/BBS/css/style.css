@@ -1,0 +1,79 @@
+
+table {
+    margin-top: 60px;
+    font-size: 16px;
+}
+
+#submit {
+    margin-top: 10px;
+}
+
+#page {
+    margin-top: 10px;
+}
+
+#dopost {
+    margin-top: 20px
+}
+html,body{
+    height:100%;
+
+}
+
+
+
+ul, ol, li {
+    list-style-type: none;
+}
+
+#tl li {
+    background: #fdfefe
+}
+
+#tl li, .pgs {
+    border-radius: 3px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.25), 0 1px 2px rgba(0, 0, 0, 0.05);
+    margin: 15px 15px;
+    padding: 10px;
+    line-height: 1.5em;
+    border: 1px solid #eee
+}
+
+#tl ul li {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+    background: #fdffff
+}
+
+#tl li li {
+    border-left: 1px solid rgba(0, 0, 0, .35);
+    margin: 0;
+    padding: 10px 3px 5px
+}
+
+#tl li li:before,
+#tl li li:after {
+    color: #AAA;
+    content: '"';
+    font-family: monospace;
+    letter-spacing: -1px;
+    font-size: 1.8em;
+    font-weight: bolder;
+    vertical-align: top;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+#test:before,
+#test:after{
+    color: #AAA;
+    content: '"';
+    font-family: monospace;
+    letter-spacing: -1px;
+    font-size: 1.8em;
+    font-weight: bolder;
+    vertical-align: top;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+         version="2.4">
+
+    <servlet>
+        <servlet-name>doSignIn</servlet-name>
+        <servlet-class>forum.servlet.doSignIn</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>doSignIn</servlet-name>
+        <url-pattern>/doSignIn</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>doSignUp</servlet-name>
+        <servlet-class>forum.servlet.doSignUp</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>doSignUp</servlet-name>
+        <url-pattern>/doSignUp</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>doInsert</servlet-name>
+        <servlet-class>forum.servlet.doInsert</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>doInsert</servlet-name>
+        <url-pattern>/doInsert</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>signOut</servlet-name>
+        <servlet-class>forum.servlet.signOut</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>signOut</servlet-name>
+        <url-pattern>/signOut</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>showTopics</servlet-name>
+        <servlet-class>forum.servlet.showTopics</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>showTopics</servlet-name>
+        <url-pattern>/showTopics</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>doReply</servlet-name>
+        <servlet-class>forum.servlet.doReply</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>doReply</servlet-name>
+        <url-pattern>/doReply</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>
