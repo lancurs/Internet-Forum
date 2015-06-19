@@ -5,9 +5,7 @@ import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by yangpeng on 4/8/15.
- */
+
 public interface TopicDao {
     boolean doInsert(Topic topic) throws Exception;
     int getCount() throws Exception;
